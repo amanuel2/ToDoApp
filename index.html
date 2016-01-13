@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	    
+	        <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+	<script src="lib/jquery.js"></script>
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   <script src="https://cdn.firebase.com/js/simple-login/1.6.2/firebase-simple-login.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-route.js"></script>
+  <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+  <script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script  src = "Services/AuthService.js"></script>
+     <script src="Controllers/regController.js"></script>
+    <script  src = "Controllers/loginController.js"></script>
+    <script  src = "Controllers/userController.js"></script>
+    <script src="Controllers/todoController.js"></script>
+    <script src="Controllers/settingsController.js"></script>
+    
+    
+   
+	
+	<meta charset="UTF-8">
+	<meta name="X-UA-Compatible" content="">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<title>Login - UniqueCoders</title>
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="Css/main.css">
+</head>
+<body ng-app="LoginApp">
+	<div id="page">
+		<header class="container">
+			<div class="row">
+				<img src="https://lh5.googleusercontent.com/-UXr_le-DEc4/VogTLE2yDfI/AAAAAAAAAfI/9RycRDVGNu8/w993-h207-no/uniquecoders.png" alt="UniqueCoders">
+			</div>
+		</header>
+		<header class="container">
+		</header>
+		   <div ng-view>
+		   	<!--Where the Pages Gets Replaced -->
+		   	
+		   </div>
+		<footer class="container">
+			<div class="row">
+				<small>&copy; 2016. Unique Coders</small>
+			</div>
+		</footer>
+	</div>
+    
+
+</body>
+</html>

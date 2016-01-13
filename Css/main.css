@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300); 
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Syncopate);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff; 
+	color: #777;
+	text-align: center;
+	font: 100%/1.5 "Open Sans", sans-serif;
+}
+#settingButton{
+	position:relative;
+	left:100px;
+	
+}
+
+header,
+nav,
+main,
+section,
+small,
+footer {
+	display: block;
+}
+
+h1, h2, h3, h4 {
+	color: #e15656;
+	font-family: "Syncopate", sans-serif;
+	margin: 20px 0;
+}
+
+img {
+	max-width: 450px;
+	width: 98%;
+	margin: 0 auto;
+}
+
+.login {
+    max-width: 450px;
+	width: 98%;
+	margin: 0 auto;
+}
+
+
+
+.login input {
+	clear: both;
+	display: block;
+	margin: 2px auto;
+	width: 97.6%;
+	border-radius: 0;
+	border: 1px solid #ddd;
+	padding: 15px 1%;
+	font-size: 100%;
+	font-family: "Open Sans", sans-serif;
+}
+
+.login [type="submit"] {
+	width: 100%;
+	background-color: #1296aa;
+	color: #fff;
+}

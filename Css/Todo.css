@@ -1,0 +1,71 @@
+#ToDoHeader{
+  font-family : Impact;
+  text-shadow: 2px 2px 5px blue;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+   text-shadow: 0 1px 0 #999999, 0 2px 0 #888888,
+             0 3px 0 #777777, 0 4px 0 #666666,
+             0 5px 0 #555555, 0 6px 0 #444444,
+             0 7px 0 #333333, 0 8px 7px rgba(0, 0, 0, 0.4),
+             0 9px 10px rgba(0, 0, 0, 0.2);
+  /* 16 * 0.0625 = 1px */
+  letter-spacing: 0.0625em;
+  font-size:100px;
+}
+#text{
+  width:500px;
+  position:relative;
+  left:460px;
+  top:40px;
+  height:60px;
+}
+:placeholder-shown {
+  font-family: "Times New Roman", Georgia, Serif;
+  color:white;
+  font-size:25px;
+  opacity: 0.4;
+  font-style: italic;
+  font-weight:bold;
+
+}
+.button-0 {
+    position: relative;
+    bottom:20px;
+    left:940px;
+    height:60px;
+    padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+    border-radius: 10px;
+    font-family: 'Helvetica', cursive;
+    font-size: 25px;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #3498DB;
+    border-bottom: 5px solid #2980B9;
+    text-shadow: 0px -2px #2980B9;
+    /* Animation */
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+
+.button-0:hover,
+.button-0:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-0:active {
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
+#tasks{
+  position: relative;
+  top:100px;
+  text-align: left;
+  right:50px;
+  list-style-type: none;
+  font-family : Impact;
+  font-size:30px;
+  text-align: center;
+}

@@ -1,0 +1,25 @@
+
+<link rel ="stylesheet" href="Css/Todo.css">
+
+
+<!--<a class="btn btn-small" href="#/Settings">
+  <i class="icon-cog"></i> Settings</a>-->
+  
+  <a href = "#/Settings" class = "settingButton"><button class="pure-button">
+    <i class="fa fa-cog"></i>
+    Settings
+</button></a>
+
+  <h1 style = "text-align:center;" id = "ToDoHeader">Todo List</h1>
+  <input type="text" class="form-control" id="text" placeholder= "What Needs To Be Done?" ng-model = "textValue">
+  <a class="button-0" ng-click="newTodo()" >Submit</a>
+  <ul id = "tasks">
+  <li ng-repeat = "messages in todos">{{messages.textValue}}</div>
+  </li>
+</ul>
+
+
+  
+
+
+
