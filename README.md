@@ -1,10 +1,7 @@
 # ToDoApp
 ToDo APp using HTML5
 
-Workers      Fields
-Amanuel      Javascript
-Sensess      HTML
-
+Workers/Fields: Amanuel/Javascript , Sensess/HTML
 
 Basic Login System with ToDo for each person to write thier To-Do List
 
